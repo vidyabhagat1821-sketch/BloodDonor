@@ -1,0 +1,61 @@
+import type { HospitalProfile } from '../types';
+
+export const MOCK_HOSPITALS: HospitalProfile[] = [
+  {
+    id: 'hosp-1',
+    name: 'City Care Hospital & Research Centre',
+    email: 'emergency@citycare.org',
+    phone: '+91 11 2678 9000',
+    role: 'hospital',
+    registrationNumber: 'HOSP-2024-9921',
+    address: '102 Healthcare Avenue, Medical Enclave',
+    city: 'Metro City',
+    location: {
+      address: '102 Healthcare Avenue',
+      city: 'Metro City',
+      lat: 28.6150,
+      lng: 77.2100,
+    },
+    emergencyContact: '+91 98111 00999',
+    website: 'https://citycare.org',
+    totalRequestsCount: 28,
+  },
+  {
+    id: 'hosp-2',
+    name: 'St. Jude Super Specialty Hospital',
+    email: 'bloodbank@stjudehospital.com',
+    phone: '+91 11 4321 8765',
+    role: 'hospital',
+    registrationNumber: 'HOSP-2023-4412',
+    address: '45 Trauma Center Ring Road',
+    city: 'Metro City',
+    location: {
+      address: '45 Trauma Center Ring Road',
+      city: 'Metro City',
+      lat: 28.6280,
+      lng: 77.2210,
+    },
+    emergencyContact: '+91 98777 55443',
+    website: 'https://stjudehospital.com',
+    totalRequestsCount: 45,
+  },
+  {
+    id: 'hosp-3',
+    name: 'Apex Trauma & Heart Institute',
+    email: 'help@apextrauma.in',
+    phone: '+91 11 8899 7766',
+    role: 'hospital',
+    registrationNumber: 'HOSP-2025-1108',
+    address: '12 Expressway Link Road, Sector 4',
+    city: 'Metro City',
+    location: {
+      address: '12 Expressway Link Road',
+      city: 'Metro City',
+      lat: 28.6010,
+      lng: 77.1980,
+    },
+    emergencyContact: '+91 99990 12345',
+    website: 'https://apextrauma.in',
+    totalRequestsCount: 19,
+  }
+];
